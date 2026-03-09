@@ -19,7 +19,7 @@ export default function Hero() {
             restaurants, and activities perfect for your child&apos;s age.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-4">
-            <AppStoreButton href="https://apps.apple.com/app/id6757502261" />
+            <AppStoreButton href="https://apps.apple.com/us/app/solimo/id6758738965" />
             <a
               href="#features"
               className="text-sm font-semibold text-[var(--color-primary)] hover:text-[var(--color-primary-dark)]"

@@ -20,7 +20,7 @@ Create a marketing website for MAParoo mobile app with homepage and privacy poli
   - Interactive maps with kid amenities
   - Private kid profiles
   - Events calendar
-- App Store download button (link to: `https://apps.apple.com/app/id6757502261`)
+- App Store download button (link to: `https://apps.apple.com/us/app/solimo/id6758738965`)
 - Screenshots/mockups of the app (optional but recommended)
 - Footer with links to privacy policy and support email
 

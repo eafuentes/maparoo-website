@@ -106,7 +106,7 @@ export default function Home() {
             Real recommendations from real families. Find playgrounds, museums,
             restaurants, and activities perfect for your child&apos;s age.
           </p>
-          <AppStoreButton href="https://apps.apple.com/app/id6757502261" />
+          <AppStoreButton href="https://apps.apple.com/us/app/solimo/id6758738965" />
         </div>
       </section>
       <Footer />
