@@ -203,6 +203,9 @@ export default function TermsOfServicePage() {
               We may remove content that violates these Terms or is reported by
               other users, at our sole discretion.
             </li>
+            <li>
+              A parent can report a post or block another parent in the app.
+            </li>
           </ul>
         </section>
 
@@ -241,7 +244,7 @@ export default function TermsOfServicePage() {
               We do not market to kids and do not knowingly collect data from
               anyone under 13. See our{" "}
               <a
-                href="https://maparoo-website.vercel.app/privacy-policy"
+                href="/privacy-policy"
                 className="font-semibold text-[var(--color-primary)] hover:text-[var(--color-primary-dark)]"
               >
                 Privacy Policy
@@ -257,8 +260,16 @@ export default function TermsOfServicePage() {
           </h2>
           <p className="mt-4 text-sm leading-6 text-[var(--color-charcoal)]/80">
             The App integrates with Apple StoreKit, Google (Maps, Places,
-            Sign-In), Supabase, RevenueCat, Sentry, and Ticketmaster. Use of
-            these services is also governed by their respective terms.
+            Sign-In), Supabase, RevenueCat, Sentry, and Ticketmaster. It also
+            uses OpenAI for search, recommendations, Plan My Day, and review
+            summaries, as described in our{" "}
+            <a
+              href="/privacy-policy"
+              className="font-semibold text-[var(--color-primary)] hover:text-[var(--color-primary-dark)]"
+            >
+              Privacy Policy
+            </a>
+            . Use of these services is also governed by their respective terms.
           </p>
         </section>
 
