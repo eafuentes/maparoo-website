@@ -20,9 +20,9 @@ const features = [
       "Create profiles for each child to get personalized recommendations. Your data stays private.",
   },
   {
-    title: "Events Calendar",
+    title: "Playdate Invites",
     description:
-      "Never miss kid-friendly events in your area. From story time to festivals.",
+      "Found a great spot? Share it or invite a friend in one tap, with directions and what is there.",
   },
 ];
 

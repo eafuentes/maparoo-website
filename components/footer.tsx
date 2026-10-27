@@ -1,7 +1,7 @@
 const links = [
   { label: "Privacy Policy", href: "/privacy-policy" },
   { label: "Terms of Service", href: "/terms-of-service" },
-  { label: "Support", href: "mailto:support@maparoo.app" },
+  { label: "Support", href: "/support" },
 ];
 
 export default function Footer() {

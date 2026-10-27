@@ -37,7 +37,7 @@ export default function TermsOfServicePage() {
           Terms of Service
         </h1>
         <p className="mt-2 text-sm text-[var(--color-charcoal)]/70">
-          Last updated: May 1, 2026
+          Last updated: October 27, 2026
         </p>
         <p className="mt-1 text-sm text-[var(--color-charcoal)]/70">
           Effective date: May 1, 2026
@@ -215,8 +215,8 @@ export default function TermsOfServicePage() {
           </h2>
           <ul className="mt-4 list-disc space-y-2 pl-5 text-sm text-[var(--color-charcoal)]/75">
             <li>
-              Place data is sourced from Google Places, Ticketmaster, and
-              parent contributions. We do not guarantee accuracy.
+              Place data is sourced from Google Places and parent
+              contributions. We do not guarantee accuracy.
             </li>
             <li>
               Always verify hours, prices, accessibility, and amenities
@@ -260,7 +260,7 @@ export default function TermsOfServicePage() {
           </h2>
           <p className="mt-4 text-sm leading-6 text-[var(--color-charcoal)]/80">
             The App integrates with Apple StoreKit, Google (Maps, Places,
-            Sign-In), Supabase, RevenueCat, Sentry, and Ticketmaster. It also
+            Sign-In), Supabase, RevenueCat, and Sentry. It also
             uses OpenAI for search, recommendations, Plan My Day, and review
             summaries, as described in our{" "}
             <a
