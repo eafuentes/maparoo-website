@@ -105,10 +105,10 @@ export default function TermsOfServicePage() {
             <li>
               Notify us immediately at{" "}
               <a
-                href="mailto:support@maparoo.app"
+                href="mailto:maparoo@gmail.com"
                 className="font-semibold text-[var(--color-primary)] hover:text-[var(--color-primary-dark)]"
               >
-                support@maparoo.app
+                maparoo@gmail.com
               </a>{" "}
               if you believe your account has been accessed without
               authorization.
@@ -366,10 +366,10 @@ export default function TermsOfServicePage() {
           <p className="mt-4 text-sm leading-6 text-[var(--color-charcoal)]/80">
             Questions about these Terms? Email
             <a
-              href="mailto:support@maparoo.app"
+              href="mailto:maparoo@gmail.com"
               className="ml-1 font-semibold text-[var(--color-primary)] hover:text-[var(--color-primary-dark)]"
             >
-              support@maparoo.app
+              maparoo@gmail.com
             </a>
             .
           </p>

@@ -236,8 +236,8 @@ export default function PrivacyPolicyPage() {
           </h2>
           <p className="mt-4 text-sm leading-6 text-[var(--color-charcoal)]/80">
             If you have questions about this policy, contact us at
-            <a href="mailto:support@maparoo.app" className={`ml-1 ${linkClass}`}>
-              support@maparoo.app
+            <a href="mailto:maparoo@gmail.com" className={`ml-1 ${linkClass}`}>
+              maparoo@gmail.com
             </a>
             .
           </p>

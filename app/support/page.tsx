@@ -54,8 +54,8 @@ export default function SupportPage() {
           Questions, problems, or feedback? Email us and we will read it.
         </p>
         <p className="mt-4 text-base">
-          <a href="mailto:support@maparoo.app" className={linkClass}>
-            support@maparoo.app
+          <a href="mailto:maparoo@gmail.com" className={linkClass}>
+            maparoo@gmail.com
           </a>
         </p>
 
