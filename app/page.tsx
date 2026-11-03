@@ -34,8 +34,8 @@ export default function Home() {
               </p>
               <ul className="mt-6 space-y-3 text-sm text-[var(--color-charcoal)]/75">
                 <li>Quick filters for age, amenities, and stroller access</li>
-                <li>Follow other parents in your community</li>
-                <li>Get notified when new events pop up nearby</li>
+                <li>Share a place or invite a friend in one tap</li>
+                <li>See what other parents confirmed before you go</li>
               </ul>
             </div>
             <div className="grid gap-4 sm:grid-cols-2">
@@ -51,10 +51,6 @@ export default function Home() {
                 {
                   title: "Kid profile setup",
                   src: "/kids-profile.jpg",
-                },
-                {
-                  title: "Upcoming kid-friendly events",
-                  src: "/kids-events-ui.svg",
                 },
               ].map((item) => (
                 <div

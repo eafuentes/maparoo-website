@@ -41,7 +41,7 @@ export default function Hero() {
           <div className="grid gap-4 sm:grid-cols-2">
             {[
               "Nearby playgrounds",
-              "Weekend events",
+              "Indoor play spots",
               "Kid-friendly dining",
               "Family museums",
             ].map((label) => (

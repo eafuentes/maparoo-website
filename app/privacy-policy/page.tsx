@@ -10,6 +10,7 @@ const sections = [
   { id: "information-we-collect", label: "Information We Collect" },
   { id: "how-kid-data-is-used", label: "How Kid Data Is Used" },
   { id: "data-sent-to-openai", label: "Other Data Sent to OpenAI" },
+  { id: "children", label: "Children" },
   { id: "third-party-services", label: "Third-Party Services" },
   { id: "your-choices", label: "Your Choices" },
   { id: "contact", label: "Contact Information" },
@@ -29,7 +30,7 @@ export default function PrivacyPolicyPage() {
           Privacy Policy
         </h1>
         <p className="mt-2 text-sm text-[var(--color-charcoal)]/70">
-          Last updated: October 1, 2026
+          Last updated: October 27, 2026
         </p>
         <p className="mt-6 text-base leading-7 text-[var(--color-charcoal)]/80">
           This Privacy Policy explains how MAParoo collects, uses, and protects
@@ -69,14 +70,18 @@ export default function PrivacyPolicyPage() {
               do not keep a location history for ads.
             </li>
             <li>
-              Kid profiles the parent creates: name, birth date, and interests.
-              These are private to that parent. Other users cannot see them.
+              Kid profiles the parent creates: name, birth date, optional
+              gender, and interests. These are private to that parent. Other
+              users cannot see them.
             </li>
             <li>
               Content the parent posts: reviews, photos, and short videos.
               Reviews, photos, and videos are public inside the app.
             </li>
-            <li>Crash and diagnostic data.</li>
+            <li>
+              Crash and diagnostic data, tied to an anonymous account ID so we
+              can fix problems. It does not include your email.
+            </li>
             <li>Subscription status.</li>
           </ul>
         </section>
@@ -93,6 +98,11 @@ export default function PrivacyPolicyPage() {
               For Plan My Day, recommendations, and search, we send OpenAI the
               child&apos;s age in months (calculated from the birth date) and
               their interests. We do not send the child&apos;s name.
+            </li>
+            <li>
+              AI features ask for permission the first time they are used, and
+              nothing is sent before the parent says yes. The parent can turn
+              AI suggestions off any time in Settings.
             </li>
             <li>
               The parent can use the map without creating a kid profile. AI
@@ -118,6 +128,19 @@ export default function PrivacyPolicyPage() {
               visible to other parents.
             </li>
           </ul>
+        </section>
+
+        <section id="children" className="mt-12">
+          <h2 className="text-2xl font-semibold text-[var(--color-charcoal)]">
+            Children
+          </h2>
+          <p className="mt-4 text-sm leading-6 text-[var(--color-charcoal)]/80">
+            MAParoo is for parents and caregivers. It is not for children to use
+            on their own, and we do not knowingly collect information from
+            anyone under 13 who uses the app. Information about a child comes
+            only from the parent who creates the kid profile, and the parent can
+            edit or delete it, or delete their account, at any time.
+          </p>
         </section>
 
         <section id="third-party-services" className="mt-12">
@@ -173,16 +196,6 @@ export default function PrivacyPolicyPage() {
               Sentry: crash reports.{" "}
               <a href="https://sentry.io/privacy/" className={linkClass}>
                 sentry.io/privacy
-              </a>
-            </li>
-            <li>
-              Ticketmaster: event listings, only when someone opens the Events
-              tab.{" "}
-              <a
-                href="https://www.ticketmaster.com/privacy"
-                className={linkClass}
-              >
-                ticketmaster.com/privacy
               </a>
             </li>
             <li>
