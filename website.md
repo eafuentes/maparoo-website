@@ -75,7 +75,7 @@ Use template from `/docs/PRIVACY_POLICY_TEMPLATE.md` in the main repo as base co
    - Parents control all data
 
 7. Contact Information
-   - Email: support@maparoo.app (or your preferred email)
+   - Email: maparoo@gmail.com (or your preferred email)
    - Last updated: February 11, 2026
 
 **Design Requirements:**
@@ -156,7 +156,7 @@ Once deployed, provide these URLs:
 
 1. **Marketing URL:** `https://maparoo.app` or `https://maparoo.vercel.app`
 2. **Privacy Policy URL:** `https://maparoo.app/privacy-policy`
-3. **Support URL:** `mailto:support@maparoo.app` (or create a support page)
+3. **Support URL:** `mailto:maparoo@gmail.com` (or create a support page)
 
 ## Deployment Instructions
 
